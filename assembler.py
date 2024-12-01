@@ -129,3 +129,4 @@ if __name__ == "__main__":
     parser.add_argument("output", help="Output binary file")
     parser.add_argument("log", help="Log file in JSON format")
     args = parser.parse_args()
+    assemble(args.input, args.output, args.log)
